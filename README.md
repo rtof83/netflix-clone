@@ -11,7 +11,7 @@
 
 - `desenvolvido em react`
 - `dados fornecidos através da API "The Movie Database" (o cadastro para obter a chave de requisição é gratuito)`
-- [configuração]()
+- [configuração](https://github.com/rtof83/netflix-clone/blob/main/src/components/Services/tmdb.js)
 
 
 ### References:
