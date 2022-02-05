@@ -18,7 +18,6 @@
 - [B7Web](https://b7web.com.br/fullstack/)
 - [Clone do NETFLIX em REACTJS para Iniciantes](https://www.youtube.com/watch?v=tBweoUiMsDg)
 - [The Movie Database API - Getting Started](https://developers.themoviedb.org/3/getting-started/introduction)
-- [Exemplo de requisição da API](https://api.themoviedb.org/3/movie/550?api_key=414270c298daa1220be743088c93ebd4)
 
 
 ![alt tag](https://hermes.digitalinnovation.one/assets/diome/logo.png)
