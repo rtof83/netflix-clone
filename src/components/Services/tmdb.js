@@ -1,21 +1,16 @@
 import axios from 'axios';
 
-
-const API_KEY = '414270c298daa1220be743088c93ebd4'
+const API_KEY = ''
 const API_BASE = 'https://api.themoviedb.org/3'
 
-// const api = axios.create({
-//     baseURL: "https://api.github.com",
-// });
-
 const basicSearch = async (endpoint) => {
-    let teste;
+    let items;
     await axios.get(API_BASE+endpoint)
     .then(({ data }) => {
-        teste = data
+        items = data
       })
 
-    return teste;
+    return items;
 }
 
 const getHomeList = async () => {
@@ -73,7 +68,5 @@ const getHomeList = async () => {
 const getMovieInfo = async (movieId, type) => {
     return await basicSearch(`/${type}/${movieId}?language=pt-BR&api_key=${API_KEY}`);
 }
-
-// console.log(getHomeList())
 
 export { getHomeList, getMovieInfo };
